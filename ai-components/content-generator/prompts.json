@@ -1,0 +1,83 @@
+{
+    "motivation": [
+      "Generate a short, energetic motivational quote for fitness enthusiasts trying to build consistency. Include a fitness-related emoji. Keep it under 240 characters.",
+      "Create a motivational tweet in the style of a fitness coach encouraging someone who's struggling to stay motivated. Include a call to action and fitness emoji. Keep it under 240 characters.",
+      "Write a short, powerful message about pushing through fitness plateaus. Focus on mental toughness. Include a fitness-related hashtag and emoji. Keep it under 240 characters."
+    ],
+    
+    "workoutTip": [
+      "Create a practical workout tip for busy professionals. Include one specific exercise recommendation. Keep it under 240 characters.",
+      "Generate a science-based workout optimization tip with one actionable insight. Keep it under 240 characters.",
+      "Write a form correction tip for a common exercise mistake that many beginners make. Be specific and include why it matters. Keep it under 240 characters."
+    ],
+    
+    "nutritionAdvice": [
+      "Generate a simple nutrition tip for someone trying to build muscle. Include one food recommendation. Keep it under 240 characters.",
+      "Create a practical nutrition tip for someone trying to lose fat while maintaining energy for workouts. Keep it under 240 characters.",
+      "Write a hydration tip related to workout performance. Include a specific recommendation. Keep it under 240 characters."
+    ],
+    
+    "goal_specific": {
+      "weight_loss": [
+        "Generate a motivational quote specifically for someone trying to lose weight who is feeling discouraged by slow progress. Include an encouraging emoji. Keep it under 240 characters.",
+        "Write a short, practical tip for maintaining a caloric deficit without feeling deprived. Include one actionable habit suggestion. Keep it under 240 characters.",
+        "Create an encouraging message about consistency for fat loss that emphasizes the importance of the journey over quick results. Include a relevant hashtag. Keep it under 240 characters."
+      ],
+      
+      "muscle_gain": [
+        "Generate a motivational quote about the patience required for building muscle. Include a strength-related emoji. Keep it under 240 characters.",
+        "Write a short, practical reminder about the importance of progressive overload for muscle growth. Include one specific strategy. Keep it under 240 characters.",
+        "Create an encouraging message about fueling properly for muscle growth. Include one specific nutrition strategy and a relevant emoji. Keep it under 240 characters."
+      ],
+      
+      "fitness_beginner": [
+        "Generate a welcoming, motivational quote for someone just starting their fitness journey. Focus on small wins and consistency. Include an encouraging emoji. Keep it under 240 characters.",
+        "Write a short, practical tip for fitness beginners to avoid common mistakes. Include one specific recommendation. Keep it under 240 characters.",
+        "Create an encouraging message for a fitness beginner who is feeling intimidated. Focus on building confidence. Include a relevant hashtag. Keep it under 240 characters."
+      ],
+      
+      "endurance": [
+        "Generate a motivational quote about building cardiovascular endurance and pushing through mental barriers. Include a relevant emoji. Keep it under 240 characters.",
+        "Write a short, practical tip for improving running or cycling performance. Include one specific training strategy. Keep it under 240 characters.",
+        "Create an encouraging message about consistent endurance training and its benefits. Include a relevant hashtag and emoji. Keep it under 240 characters."
+      ]
+    },
+    
+    "challenge_specific": {
+      "plateaus": [
+        "Generate an encouraging message for someone hitting a plateau in their fitness progress. Focus on strategy adjustment rather than working harder. Keep it under 240 characters.",
+        "Write a short, practical tip for breaking through a strength plateau. Include one specific training manipulation. Keep it under 240 characters.",
+        "Create a motivational quote about the mental aspect of overcoming plateaus. Include a relevant hashtag and emoji. Keep it under 240 characters."
+      ],
+      
+      "consistency": [
+        "Generate a motivational quote about building consistency in fitness habits. Focus on the compound effect of small actions. Include a relevant emoji. Keep it under 240 characters.",
+        "Write a short, practical tip for maintaining workout consistency with a busy schedule. Include one specific habit-building strategy. Keep it under 240 characters.",
+        "Create an encouraging message about getting back on track after missing workouts. Focus on self-compassion and renewal. Include a relevant hashtag. Keep it under 240 characters."
+      ],
+      
+      "injury_recovery": [
+        "Generate a patient, encouraging message for someone coming back from a fitness injury. Focus on smart recovery rather than rushing back. Include a relevant emoji. Keep it under 240 characters.",
+        "Write a short, practical tip for safely returning to training after an injury. Include one specific approach or mindset shift. Keep it under 240 characters.",
+        "Create a motivational quote about using injury recovery as an opportunity to build mental strength and address weaknesses. Include a relevant hashtag. Keep it under 240 characters."
+      ],
+      
+      "motivation": [
+        "Generate a powerful quote about finding intrinsic motivation for fitness beyond aesthetic goals. Include a relevant emoji. Keep it under 240 characters.",
+        "Write a short, practical tip for rekindling motivation when enthusiasm for working out has faded. Include one specific strategy. Keep it under 240 characters.",
+        "Create an encouraging message about discipline over motivation for long-term fitness success. Include a relevant hashtag and emoji. Keep it under 240 characters."
+      ]
+    },
+    
+    "chatbot_prompts": {
+      "system_prompt": "You are an AI assistant for 'The Fitness Mentor,' a fitness coaching brand. Your primary functions are: 1) Provide motivational fitness affirmations, 2) Answer basic fitness and nutrition questions, 3) Recommend workout plans based on user goals, 4) Direct users to book a call with the coach for personalized plans. Your tone is energetic, motivational but science-based. You're encouraging but don't make unrealistic promises. When asked about specific training plans or nutrition advice, suggest booking a free consultation call. Always end interactions by asking if there's anything else you can help with.",
+      
+      "daily_motivation": "Generate a short, powerful motivational message for someone working on their fitness goals today. Make it energetic, inspiring and authentic without being cheesy. Focus on discipline, consistency, and the mental benefits of fitness. Keep it under 100 words and include one emoji.",
+      
+      "workout_response": "Generate a response to someone asking for a workout recommendation. First, acknowledge their interest in fitness. Then, offer a brief, general suggestion based on their goal (weight loss, muscle gain, general fitness), but emphasize that for truly personalized recommendations they should book a free consultation call. Keep the response friendly, helpful, and under 150 words.",
+      
+      "nutrition_response": "Generate a response to someone asking for nutrition advice. Provide 1-2 general, evidence-based principles relevant to their goal (weight loss, muscle gain, performance), but clarify that personalized nutrition guidance is available through the coaching programs. Include a subtle call-to-action to book a consultation call. Keep the response informative, balanced, and under 150 words."
+    },
+    
+    "openai_system_prompt": "You are an AI assistant for 'The Fitness Mentor', a fitness coaching brand with a bold, energetic, and motivational voice. Your purpose is to create motivational content, answer basic fitness questions, and encourage users to connect with the coach for personalized guidance. Use a confident, encouraging tone that inspires action. Be concise and impactful in your responses. When creating content, focus on mental toughness, consistency, and the power of small daily actions. Avoid making unrealistic promises about quick transformations. Your messaging should align with the brand's 'Hero' archetype - brave, driven, and inspirational."
+  }

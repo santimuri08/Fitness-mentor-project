@@ -1,0 +1,124 @@
+{
+    "greetings": [
+      "👋 Welcome to The Fitness Mentor! I'm your AI fitness assistant. How can I help you today?",
+      "Hello there! I'm the Fitness Mentor AI assistant. Would you like workout advice, nutrition tips, or daily motivation?",
+      "Hey fitness warrior! I'm here to keep you motivated and answer your fitness questions. What can I help with today?",
+      "Welcome! I'm your AI fitness companion. Looking for a workout tip, nutrition advice, or just some motivation?"
+    ],
+    
+    "faq": {
+      "workout_plan": "I offer personalized workout plans based on your goals, equipment access, and time availability. Would you like me to create a custom plan for you?",
+      
+      "nutrition": "Nutrition is a crucial component of fitness success. I recommend a balanced approach focusing on protein intake, adequate hydration, and whole foods. Would you like specific nutrition guidance?",
+      
+      "weight_loss": "Sustainable weight loss combines consistent exercise, caloric deficit, and patience. The key is finding activities you enjoy and a nutrition plan you can maintain long-term. Would you like more specific advice for your situation?",
+      
+      "muscle_gain": "Building muscle requires resistance training, caloric surplus, adequate protein (1.6-2.2g per kg of bodyweight), and proper recovery. Would you like a muscle-building program recommendation?",
+      
+      "beginner": "Welcome to your fitness journey! Start with 2-3 workouts per week focusing on full-body movements. Consistency is more important than intensity. Would you like a beginner-friendly program?",
+      
+      "motivation": "Finding your 'why' is crucial for long-term motivation. Identify deeper reasons beyond appearance - energy, longevity, mental health, or setting an example for others. What's your primary fitness motivation?",
+      
+      "injury": "I recommend consulting with a healthcare professional for injury-specific advice. Once cleared, we can develop a modified plan that works around your limitations while promoting recovery.",
+      
+      "equipment": "You can get great results with minimal equipment. Bodyweight exercises, resistance bands, and adjustable dumbbells offer excellent versatility. What equipment do you currently have access to?",
+      
+      "pricing": "Coaching packages start at $99/month for customized workout plans and $199/month for comprehensive plans with nutrition guidance and weekly check-ins. Would you like more details about a specific package?",
+      
+      "results": "Results vary based on consistency, starting point, and goals. With dedicated effort, visible changes typically begin within 4-6 weeks, with significant transformation in 3-6 months. What's your primary goal?"
+    },
+    
+    "workout_suggestions": {
+      "full_body": [
+        "Here's a quick full-body workout you can do today:\n1. Squats: 3 sets x 12 reps\n2. Push-ups: 3 sets x 10 reps\n3. Dumbbell rows: 3 sets x 10 reps per arm\n4. Lunges: 3 sets x 10 reps per leg\n5. Plank: 3 sets x 30 seconds\nRest 60 seconds between sets. How does that sound?",
+        "Try this effective full-body circuit:\n1. Deadlifts: 4 sets x 8 reps\n2. Bench press or push-ups: 4 sets x 10 reps\n3. Pull-ups or lat pulldowns: 4 sets x 8 reps\n4. Overhead press: 3 sets x 10 reps\n5. Hanging leg raises: 3 sets x 12 reps\nPerform as a circuit with minimal rest between exercises. Rest 2 minutes between circuits."
+      ],
+      "upper_body": [
+        "Here's an effective upper body workout:\n1. Bench press: 4 sets x 8-10 reps\n2. Bent-over rows: 4 sets x 10 reps\n3. Overhead press: 3 sets x 10 reps\n4. Pull-ups or lat pulldowns: 3 sets x 8-10 reps\n5. Lateral raises: 3 sets x 12 reps\n6. Tricep dips: 3 sets x 12 reps\nRest 90 seconds between sets. Focus on form!",
+        "Try this push-pull upper body split:\nPush:\n1. Incline dumbbell press: 4 sets x 8 reps\n2. Shoulder press: 3 sets x 10 reps\n3. Chest flyes: 3 sets x 12 reps\n4. Tricep pushdowns: 3 sets x 12 reps\nPull:\n1. Pull-ups or lat pulldowns: 4 sets x 8 reps\n2. One-arm dumbbell rows: 3 sets x 10 reps/side\n3. Face pulls: 3 sets x 15 reps\n4. Bicep curls: 3 sets x 12 reps"
+      ],
+      "lower_body": [
+        "Here's a killer leg workout:\n1. Barbell squats: 4 sets x 8 reps\n2. Romanian deadlifts: 4 sets x 10 reps\n3. Walking lunges: 3 sets x 10 steps each leg\n4. Leg press: 3 sets x 12 reps\n5. Leg curls: 3 sets x 12 reps\n6. Calf raises: 4 sets x 15 reps\nRest 2 minutes between sets for compound movements, 90 seconds for isolation exercises.",
+        "Try this quad and hamstring focused workout:\n1. Front squats: 4 sets x 8 reps\n2. Bulgarian split squats: 3 sets x 10 reps/leg\n3. Leg extensions: 3 sets x 15 reps\n4. Stiff-leg deadlifts: 4 sets x 10 reps\n5. Lying leg curls: 3 sets x 12 reps\n6. Standing calf raises: 4 sets x 15 reps\nSupersets: Pair exercises 1&4, 2&5, and 3&6 for efficiency."
+      ],
+      "hiit": [
+        "Here's a quick HIIT session you can do anywhere:\nComplete 4 rounds of:\n- Mountain climbers: 30 seconds\n- Rest: 10 seconds\n- Burpees: 30 seconds\n- Rest: 10 seconds\n- High knees: 30 seconds\n- Rest: 10 seconds\n- Squat jumps: 30 seconds\n- Rest: 60 seconds before next round\nTotal time: 16 minutes",
+        "Try this equipment-free HIIT workout:\nPerform each exercise for 40 seconds, rest for 20 seconds, then move to the next. Complete 3-5 rounds.\n1. Jumping jacks\n2. Push-ups\n3. Alternating lunges\n4. Plank shoulder taps\n5. Burpees\n6. V-ups\n7. Lateral shuffles\n8. Rest 60 seconds between rounds"
+      ],
+      "home": [
+        "No equipment? No problem! Try this home workout:\n1. Bodyweight squats: 3 sets x 15 reps\n2. Push-ups (modify on knees if needed): 3 sets x 10 reps\n3. Walking lunges: 3 sets x 10 steps each leg\n4. Dips using a chair: 3 sets x 12 reps\n5. Plank: 3 sets x 30-60 seconds\n6. Glute bridges: 3 sets x 15 reps\nRest 60 seconds between sets.",
+        "Here's an effective home workout using just your bodyweight:\n1. Jump squats: 3 sets x 12 reps\n2. Push-up variations (standard, wide, diamond): 3 sets x 8 reps each\n3. Reverse lunges: 3 sets x 10 reps per leg\n4. Superman holds: 3 sets x 30 seconds\n5. Mountain climbers: 3 sets x 30 seconds\n6. Bicycle crunches: 3 sets x 20 reps\nMinimal rest between exercises, 90 seconds between rounds."
+      ]
+    },
+    
+    "nutrition_tips": {
+      "general": [
+        "A simple nutrition approach: eat lean protein at every meal, fill half your plate with vegetables, add a quarter plate of complex carbs, and include healthy fats.",
+        "Meal timing matters less than total daily intake for most people. Focus on hitting your protein targets and maintaining a consistent calorie intake based on your goals.",
+        "Hydration affects performance significantly. Aim to drink half your bodyweight (in pounds) in ounces of water daily, and more on training days."
+      ],
+      "weight_loss": [
+        "For sustainable fat loss, aim for a moderate caloric deficit (300-500 calories below maintenance), prioritize protein (1.6-2.2g per kg bodyweight), and keep training intensity high.",
+        "Consider nutrient timing for fat loss: consume more of your carbohydrates around your training sessions, and focus on protein and vegetables at other meals.",
+        "Volume eating can help with fat loss - focus on high-volume, low-calorie foods like vegetables, lean proteins, and high-fiber carbs to stay fuller longer on fewer calories."
+      ],
+      "muscle_gain": [
+        "To build muscle effectively, aim for a slight caloric surplus (200-300 calories above maintenance), high protein intake (1.8-2.2g per kg bodyweight), and adequate carbohydrates to fuel intense training.",
+        "Don't fear carbs when building muscle. They're your primary fuel source for high-intensity training and help with recovery. Time them around your workouts for best results.",
+        "Protein distribution matters for muscle growth. Aim for 4-5 meals with at least 25-30g of quality protein evenly spaced throughout the day."
+      ],
+      "pre_workout": [
+        "For optimal performance, consume a pre-workout meal 1-2 hours before training: combine carbs for energy (fruit, oats, rice) with a moderate amount of protein. Keep fat and fiber lower to prevent digestive issues.",
+        "Quick pre-workout snack options: banana with a tablespoon of nut butter, rice cakes with jam, or a small protein shake with fruit.",
+        "If training fasted, consider BCAAs or a small protein shake to minimize muscle protein breakdown during training."
+      ],
+      "post_workout": [
+        "The post-workout anabolic window isn't as narrow as once thought, but aim to consume 20-30g of protein and carbohydrates within 1-2 hours after training for optimal recovery.",
+        "Great post-workout meals include: chicken with rice and vegetables, protein shake with a banana, or Greek yogurt with berries and granola.",
+        "Don't neglect post-workout hydration and electrolytes, especially after intense or sweaty sessions. Water with a pinch of salt works well."
+      ]
+    },
+    
+    "motivation_responses": [
+      "Remember why you started. That initial spark - reconnect with it when motivation fades.",
+      "Discipline beats motivation every time. Show up even when you don't feel like it - especially when you don't feel like it.",
+      "The work you do when no one's watching is what makes the difference when everyone is watching.",
+      "Your body can handle almost anything. It's your mind you need to convince.",
+      "One workout at a time. One meal at a time. One day at a time. Consistency compounds.",
+      "Progress isn't always visible day to day. Trust the process and keep showing up.",
+      "You're competing against yourself, not anyone else. Beat yesterday's version of you.",
+      "The only workout you'll regret is the one you didn't do.",
+      "Motivation comes and goes. Discipline is what carries you through to your goals.",
+      "Every time you push through when it's hard, you're building mental strength that transfers to all areas of life."
+    ],
+    
+    "follow_ups": [
+      "Is there anything specific about your fitness journey you'd like help with today?",
+      "What's your biggest fitness challenge right now?",
+      "Would you like a workout suggestion or nutrition tip for today?",
+      "How can I help you stay motivated on your fitness journey?",
+      "Would you like me to provide more specific advice for your goals?",
+      "Is there a particular fitness topic you'd like to learn more about?",
+      "How are your workouts going this week?",
+      "Have you been struggling with any specific aspect of your fitness routine?"
+    ],
+    
+    "encouragement": [
+      "You've got this! One step at a time.",
+      "Keep pushing - your future self will thank you.",
+      "Progress takes time, but you're making it happen with every consistent action.",
+      "Remember, even small steps forward are still moving you toward your goals.",
+      "The fact that you're here shows your commitment. That's half the battle!",
+      "Focus on the process, not just the outcome. Every good choice matters.",
+      "Your dedication is inspiring - seriously, keep it up!",
+      "This is your journey, and you're crushing it one day at a time."
+    ],
+    
+    "call_to_action": [
+      "Ready to take your fitness to the next level? Book a free consultation call to discuss personalized coaching options.",
+      "For customized workout and nutrition plans, consider booking a consultation call with our head coach.",
+      "Looking for more personalized guidance? Our 1:1 coaching program might be perfect for you. Book a free call to learn more.",
+      "Want the accountability and expertise of a coach? Schedule your free consultation to see if we're a good fit.",
+      "Ready for real results? Take the next step and book a free strategy call to map out your fitness journey."
+    ]
+  }
