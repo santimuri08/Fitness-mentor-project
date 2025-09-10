@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Content | The Fitness Mentor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">THE FITNESS MENTOR</a>
+            </div>
+            <div class="main-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="ai-content.html" class="active">AI Content</a>
+                <a href="book-call.html" class="cta-button">Book a Call</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- AI Content Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1>AI-POWERED <span class="highlight">MOTIVATION</span></h1>
+            <p>Daily fitness inspiration to keep you focused, motivated, and consistent on your journey.</p>
+        </div>
+    </header>
+
+    <!-- Content Categories -->
+    <section class="content-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="category-tab active" data-category="motivation">Motivation</button>
+                <button class="category-tab" data-category="workout-tips">Workout Tips</button>
+                <button class="category-tab" data-category="nutrition">Nutrition Advice</button>
+            </div>
+
+            <!-- Motivation Content -->
+            <div class="category-content active" id="motivation-content">
+                <div class="content-grid">
+                    <div class="content-card large">
+                        <p class="quote">"The weight room doesn't care about your excuses. It only respects your effort. Put in the work today that others won't, so you can live the life others can't. 💪 #NoExcuses"</p>
+                        <span class="date">Today</span>
+                    </div>
+                    <div class="content-card">
+                        <p class="quote">"Your body achieves what your mind believes. Today's challenge: Set one small fitness goal and crush it. That momentum builds empires of strength. 🔥"</p>
+                        <span class="date">Yesterday</span>
+                    </div>
+                    <div class="content-card">
+                        <p class="quote">"Feeling tired? That's just your body building its capacity for greatness. Embrace the fatigue, push through one more rep, and watch yourself transform. #StrengthJourney"</p>
+                        <span class="date">2 days ago</span>
+                    </div>
+                    <div class="content-card">
+                        <p class="quote">"Discipline is choosing between what you want now and what you want most. Make choices today that your future self will thank you for. 💯"</p>
+                        <span class="date">3 days ago</span>
+                    </div>
+                    <div class="content-card">
+                        <p class="quote">"Consistency over intensity. Small daily improvements are the key to staggering long-term results. Show up today. #DailyProgress"</p>
+                        <span class="date">4 days ago</span>
+                    </div>
+                    <div class="content-card">
+                        <p class="quote">"Success leaves clues. Find someone who has the results you want, follow their process, and you'll get their outcome. Who's your fitness inspiration today? 👊"</p>
+                        <span class="date">5 days ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Workout Tips Content (initially hidden) -->
+            <div class="category-content" id="workout-tips-content">
+                <div class="content-grid">
+                    <div class="content-card large">
+                        <p class="quote">"Time-saving tip: Compound exercises like squats, deadlifts, and bench press work multiple muscle groups simultaneously. More results in less time. That's working smarter AND harder. 💪"</p>
+                        <span class="date">Today</span>
+                    </div>
+                    <div class="content-card">
+                        <p class="quote">"Progressive overload is the key to growth. Add weight, reps, or sets every 1-2 weeks. Your body adapts to what you demand of it. #NeverPlateau"</p>
+                        <span class="date">Yesterday</span>
+                    </div>
+                    <div class="content-card">
+                        <p class="quote">"Rest periods matter: 30-60s for endurance, 1-2m for hypertrophy, 3-5m for strength/power. Match your rest to your goals for optimal results. ⏱️"</p>
+                        <span class="date">2 days ago</span>
+                    </div>
+                    <div class="content-card">
+                        <p class="quote">"The last 2-3 reps should be challenging. If you can do 5 more, you're not pushing hard enough. If you can't complete the set, you're pushing too hard. Find that sweet spot. 🎯"</p>
+                        <span class="date">3 days ago</span>
+                    </div>
+                    <div class="content-card">
+                        <p class="quote">"Proper form > heavy weight. Drop the ego, master the movement, then add load. Your joints will thank you, and you'll actually target the intended muscles. #FormFirst"</p>
+                        <span class="date">4 days ago</span>
+                    </div>
+                    <div class="content-card">
+                        <p class="quote">"Need to save time? Try supersets: pair opposing muscle groups (push/pull) with minimal rest between exercises. Twice the work in half the time. ⚡"</p>
+                        <span class="date">5 days ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nutrition Advice Content (initially hidden) -->
+            <div class="category-content" id="nutrition-content">
+                <div class="content-grid">
+                    <div class="content-card large">
+                        <p class="quote">"Protein timing matters less than total daily intake. Aim for 1.6-2.2g per kg of bodyweight daily for muscle growth, spread across 3-5 meals. Quality over perfect timing. 🥩"</p>
+                        <span class="date">Today</span>
+                    </div>
+                    <div class="content-card">
+                        <p class="quote">"Water intake directly impacts performance. Even 2% dehydration can decrease strength by up to 10%. Drink half your bodyweight (lbs) in ounces daily. 💧"</p>
+                        <span class="date">Yesterday</span>
+                    </div>
+                    <div class="content-card">
+                        <p class="quote">"Can't hit your protein goal? Whey protein isn't cheating—it's a convenient tool. 25-30g post-workout with water is quickly absorbed for optimal recovery. #WorkSmarter"</p>
+                        <span class="date">2 days ago</span>
+                    </div>
+                    <div class="content-card">
+                        <p class="quote">"Eat for your goals. Building muscle? Slight caloric surplus. Losing fat? Moderate deficit. Maintaining? Balance. The best diet is the one you can sustain. 🍽️"</p>
+                        <span class="date">3 days ago</span>
+                    </div>
+                    <div class="content-card">
+                        <p class="quote">"Carbs aren't the enemy. They fuel intense workouts. Time them around your training—higher on workout days, lower on rest days. Strategic carb cycling works. 🍚"</p>
+                        <span class="date">4 days ago</span>
+                    </div>
+                    <div class="content-card">
+                        <p class="quote">"80% whole foods, 20% flexibility. Perfect isn't sustainable, but consistency is. Build habits around nutrient-dense foods, allow room for life. #BalanceIsKey"</p>
+                        <span class="date">5 days ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get Your Own Content -->
+    <section class="get-your-own">
+        <div class="container">
+            <div class="custom-content-card">
+                <h2>GET YOUR <span class="highlight">PERSONALIZED</span> CONTENT</h2>
+                <p>Enter your fitness goal and receive a custom-generated motivational message or workout tip.</p>
+                
+                <form id="custom-content-form">
+                    <div class="form-group">
+                        <label for="content-type">Content Type</label>
+                        <select id="content-type" required>
+                            <option value="motivation">Motivation</option>
+                            <option value="workoutTip">Workout Tip</option>
+                            <option value="nutritionAdvice">Nutrition Advice</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="fitness-goal">Your Current Fitness Goal</label>
+                        <input type="text" id="fitness-goal" placeholder="E.g., lose weight, build muscle, improve endurance" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email to Receive Your Content</label>
+                        <input type="email" id="email" placeholder="Your email" required>
+                    </div>
+                    
+                    <button type="submit" class="primary-button">Generate My Content</button>
+                </form>
+                
+                <div id="generated-content" class="hidden">
+                    <h3>Your Personalized Content</h3>
+                    <div class="content-preview">
+                        <p id="content-result"></p>
+                    </div>
+                    <div class="content-actions">
+                        <button id="copy-content" class="secondary-button">Copy to Clipboard</button>
+                        <button id="generate-another" class="text-button">Generate Another</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Subscribe to Daily Content -->
+    <section class="ai-subscription">
+        <div class="container">
+            <div class="subscription-card">
+                <h2>GET <span class="highlight">DAILY</span> MOTIVATION</h2>
+                <p>Subscribe to receive free AI-generated fitness motivation directly to your inbox every morning.</p>
+                
+                <div class="subscription-benefits">
+                    <div class="benefit">
+                        <div class="icon">🏆</div>
+                        <h3>Daily Motivation</h3>
+                        <p>Start your day with a motivational fitness quote to keep you focused on your goals.</p>
+                    </div>
+                    <div class="benefit">
+                        <div class="icon">💪</div>
+                        <h3>Weekly Workout Tips</h3>
+                        <p>Receive one science-based workout tip per week to optimize your training.</p>
+                    </div>
+                    <div class="benefit">
+                        <div class="icon">🍎</div>
+                        <h3>Nutrition Insights</h3>
+                        <p>Get practical nutrition advice to fuel your workouts and recovery.</p>
+                    </div>
+                </div>
+                
+                <form id="daily-motivation-form">
+                    <div class="form-group inline">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="primary-button">Subscribe Now</button>
+                    </div>
+                    <p class="form-note">* You can unsubscribe at any time. We respect your privacy.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>READY FOR <span class="highlight">REAL RESULTS?</span></h2>
+            <p>AI content is great for daily motivation, but for a truly transformative experience, let's work together one-on-one.</p>
+            <a href="book-call.html" class="primary-button large">Schedule Your Free Consultation</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>THE FITNESS MENTOR</h3>
+                    <p>Become Your Strongest Self</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Pages</h4>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="services.html">Services</a>
+                        <a href="ai-content.html">AI Content</a>
+                        <a href="book-call.html">Book a Call</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Connect</h4>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">YouTube</a>
+                        <a href="mailto:contact@thefitnessmentor.com">Email</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 The Fitness Mentor. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script>
+        // Handle category tabs
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabs = document.querySelectorAll('.category-tab');
+            const contents = document.querySelectorAll('.category-content');
+            
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    // Remove active class from all tabs
+                    tabs.forEach(t => t.classList.remove('active'));
+                    
+                    // Add active class to clicked tab
+                    this.classList.add('active');
+                    
+                    // Hide all content sections
+                    contents.forEach(content => content.classList.remove('active'));
+                    
+                    // Show the selected content
+                    const category = this.getAttribute('data-category');
+                    document.getElementById(`${category}-content`).classList.add('active');
+                });
+            });
+            
+            // Handle custom content generation
+            const customContentForm = document.getElementById('custom-content-form');
+            const generatedContent = document.getElementById('generated-content');
+            const contentResult = document.getElementById('content-result');
+            
+            if (customContentForm) {
+                customContentForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const contentType = document.getElementById('content-type').value;
+                    const fitnessGoal = document.getElementById('fitness-goal').value;
+                    const email = document.getElementById('email').value;
+                    
+                    // Simulate API call to generate content
+                    const loadingText = "Generating your personalized content...";
+                    contentResult.textContent = loadingText;
+                    generatedContent.classList.remove('hidden');
+                    
+                    // Scroll to the generated content
+                    generatedContent.scrollIntoView({ behavior: 'smooth' });
+                    
+                    // Simulate API response
+                    setTimeout(() => {
+                        let generatedText;
+                        
+                        // Sample generated content based on type and goal
+                        if (contentType === 'motivation') {
+                            generatedText = `Don't wait for the perfect moment to pursue your ${fitnessGoal} goals. Every rep, every run, every healthy choice is a brick in the foundation of your new self. The discomfort you feel today is creating the strength you'll show tomorrow. 💪 #BecomeYourStrongestSelf`;
+                        } else if (contentType === 'workoutTip') {
+                            generatedText = `For ${fitnessGoal}, focus on progressive overload - gradually increasing weight, reps, or sets each week. This consistent challenge forces adaptation and prevents plateaus. Try adding 5% more weight or 2 extra reps to your main lifts this week. 🏋️‍♂️ #ProgressiveGains`;
+                        } else {
+                            generatedText = `Nutrition tip for ${fitnessGoal}: Prioritize protein intake (1.6-2.2g per kg bodyweight) and time your carbs around workouts for optimal energy and recovery. Stay hydrated - aim for 3-4 liters daily to support metabolism and performance. 🥦 #FuelForResults`;
+                        }
+                        
+                        contentResult.textContent = generatedText;
+                        
+                        // Store in localStorage
+                        localStorage.setItem('generatedContent', generatedText);
+                        localStorage.setItem('contentEmail', email);
+                    }, 2000);
+                });
+            }
+            
+            // Copy content to clipboard
+            const copyButton = document.getElementById('copy-content');
+            if (copyButton) {
+                copyButton.addEventListener('click', function() {
+                    const content = contentResult.textContent;
+                    navigator.clipboard.writeText(content).then(() => {
+                        const originalText = this.textContent;
+                        this.textContent = 'Copied! ✓';
+                        
+                        setTimeout(() => {
+                            this.textContent = originalText;
+                        }, 2000);
+                    });
+                });
+            }
+            
+            // Generate another content
+            const generateAnother = document.getElementById('generate-another');
+            if (generateAnother) {
+                generateAnother.addEventListener('click', function() {
+                    customContentForm.reset();
+                    generatedContent.classList.add('hidden');
+                    
+                    // Scroll back to the form
+                    customContentForm.scrollIntoView({ behavior: 'smooth' });
+                });
+            }
+            
+            // Handle daily motivation form
+            const dailyMotivationForm = document.getElementById('daily-motivation-form');
+            if (dailyMotivationForm) {
+                dailyMotivationForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const email = this.querySelector('input[type="email"]').value;
+                    const button = this.querySelector('button');
+                    const originalText = button.textContent;
+                    
+                    button.textContent = 'Subscribing...';
+                    
+                    // Simulate API call
+                    setTimeout(() => {
+                        button.textContent = 'Subscribed! ✓';
+                        button.style.backgroundColor = '#4CAF50';
+                        
+                        // Store email in localStorage
+                        localStorage.setItem('motivationEmail', email);
+                        
+                        // Reset form after delay
+                        setTimeout(() => {
+                            button.textContent = originalText;
+                            button.style.backgroundColor = '';
+                            this.reset();
+                        }, 3000);
+                    }, 1500);
+                });
+            }
+        });
+    </script>
+    <script src="js/custom-chatbot.js"></script>
+</body>
+</html>

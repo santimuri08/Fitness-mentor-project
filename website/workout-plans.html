@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Plans | The Fitness Mentor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">THE FITNESS MENTOR</a>
+            </div>
+            <div class="main-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="ai-content.html">AI Content</a>
+                <a href="book-call.html" class="cta-button">Book a Call</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Workout Plans Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1>WORKOUT <span class="highlight">PLANS</span></h1>
+            <p>Customized training programs designed to help you reach your specific fitness goals</p>
+        </div>
+    </header>
+
+    <!-- Workout Plan Categories -->
+    <section class="plan-categories">
+        <div class="container">
+            <h2>CHOOSE YOUR <span class="highlight">GOAL</span></h2>
+            <p class="section-intro">Select a workout plan that aligns with your specific fitness goals and training preferences.</p>
+            
+            <div class="category-tabs">
+                <button class="category-tab active" data-category="strength">Strength Building</button>
+                <button class="category-tab" data-category="fat-loss">Fat Loss</button>
+                <button class="category-tab" data-category="muscle-gain">Muscle Gain</button>
+                <button class="category-tab" data-category="beginner">Beginner</button>
+                <button class="category-tab" data-category="home">Home Workouts</button>
+            </div>
+
+            <!-- Strength Building Plans -->
+            <div class="category-content active" id="strength-content">
+                <div class="plans-grid">
+                    <div class="plan-card">
+                        <div class="plan-header">
+                            <h3>Power Builder</h3>
+                            <div class="plan-badge">Popular</div>
+                        </div>
+                        <div class="plan-details">
+                            <div class="plan-info">
+                                <span class="info-label">Duration:</span>
+                                <span class="info-value">8 Weeks</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Level:</span>
+                                <span class="info-value">Intermediate</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Frequency:</span>
+                                <span class="info-value">4-5 days/week</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Equipment:</span>
+                                <span class="info-value">Full Gym</span>
+                            </div>
+                        </div>
+                        <div class="plan-description">
+                            <p>Focused on building both maximal strength and muscle size, this program uses a blend of heavy compound lifts and targeted hypertrophy work. Perfect for those wanting to get stronger while adding quality muscle.</p>
+                        </div>
+                        <div class="plan-features">
+                            <h4>Program Includes:</h4>
+                            <ul>
+                                <li>Progressive overload system</li>
+                                <li>Weekly training splits</li>
+                                <li>Exercise video demonstrations</li>
+                                <li>Progression tracking templates</li>
+                                <li>Nutrition guidelines</li>
+                            </ul>
+                        </div>
+                        <div class="plan-preview">
+                            <h4>Sample Week:</h4>
+                            <div class="workout-days">
+                                <div class="workout-day">
+                                    <div class="day-label">Day 1</div>
+                                    <div class="day-focus">Upper Power</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 2</div>
+                                    <div class="day-focus">Lower Power</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 3</div>
+                                    <div class="day-focus">Rest</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 4</div>
+                                    <div class="day-focus">Push Hypertrophy</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 5</div>
+                                    <div class="day-focus">Pull Hypertrophy</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 6</div>
+                                    <div class="day-focus">Legs Hypertrophy</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 7</div>
+                                    <div class="day-focus">Rest</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="primary-button plan-button" data-plan="Power Builder">Get This Plan</a>
+                    </div>
+
+                    <div class="plan-card">
+                        <div class="plan-header">
+                            <h3>5/3/1 Strength Focus</h3>
+                        </div>
+                        <div class="plan-details">
+                            <div class="plan-info">
+                                <span class="info-label">Duration:</span>
+                                <span class="info-value">12 Weeks</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Level:</span>
+                                <span class="info-value">Intermediate-Advanced</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Frequency:</span>
+                                <span class="info-value">4 days/week</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Equipment:</span>
+                                <span class="info-value">Full Gym</span>
+                            </div>
+                        </div>
+                        <div class="plan-description">
+                            <p>Based on the proven 5/3/1 methodology, this program focuses on building strength in the four main lifts while providing customizable assistance work. Perfect for those wanting to increase their one-rep maxes.</p>
+                        </div>
+                        <div class="plan-features">
+                            <h4>Program Includes:</h4>
+                            <ul>
+                                <li>Percentage-based progression system</li>
+                                <li>Personalized weight calculations</li>
+                                <li>Detailed assistance work templates</li>
+                                <li>PR tracking system</li>
+                                <li>Recovery protocols</li>
+                            </ul>
+                        </div>
+                        <div class="plan-preview">
+                            <h4>Sample Week:</h4>
+                            <div class="workout-days">
+                                <div class="workout-day">
+                                    <div class="day-label">Day 1</div>
+                                    <div class="day-focus">Squat 5/3/1</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 2</div>
+                                    <div class="day-focus">Bench 5/3/1</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 3</div>
+                                    <div class="day-focus">Rest</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 4</div>
+                                    <div class="day-focus">Deadlift 5/3/1</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 5</div>
+                                    <div class="day-focus">Press 5/3/1</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 6</div>
+                                    <div class="day-focus">Rest</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 7</div>
+                                    <div class="day-focus">Rest</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="primary-button plan-button" data-plan="5/3/1 Strength Focus">Get This Plan</a>
+                    </div>
+
+                    <div class="plan-card">
+                        <div class="plan-header">
+                            <h3>StrongLifts Plus</h3>
+                        </div>
+                        <div class="plan-details">
+                            <div class="plan-info">
+                                <span class="info-label">Duration:</span>
+                                <span class="info-value">12 Weeks</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Level:</span>
+                                <span class="info-value">Beginner-Intermediate</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Frequency:</span>
+                                <span class="info-value">3 days/week</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Equipment:</span>
+                                <span class="info-value">Barbell, Rack</span>
+                            </div>
+                        </div>
+                        <div class="plan-description">
+                            <p>An enhanced version of the classic 5x5 program, focusing on building a strong foundation through compound movements. Additional accessory work targets weak points and ensures balanced development.</p>
+                        </div>
+                        <div class="plan-features">
+                            <h4>Program Includes:</h4>
+                            <ul>
+                                <li>Linear progression system</li>
+                                <li>Form check guidelines</li>
+                                <li>Supplementary exercises</li>
+                                <li>Deload protocols</li>
+                                <li>Plateau-breaking strategies</li>
+                            </ul>
+                        </div>
+                        <div class="plan-preview">
+                            <h4>Sample Week:</h4>
+                            <div class="workout-days">
+                                <div class="workout-day">
+                                    <div class="day-label">Monday</div>
+                                    <div class="day-focus">Workout A</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Tuesday</div>
+                                    <div class="day-focus">Rest</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Wednesday</div>
+                                    <div class="day-focus">Workout B</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Thursday</div>
+                                    <div class="day-focus">Rest</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Friday</div>
+                                    <div class="day-focus">Workout A</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Saturday</div>
+                                    <div class="day-focus">Rest</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Sunday</div>
+                                    <div class="day-focus">Rest</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="primary-button plan-button" data-plan="StrongLifts Plus">Get This Plan</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fat Loss Plans (initially hidden) -->
+            <div class="category-content" id="fat-loss-content">
+                <div class="plans-grid">
+                    <div class="plan-card">
+                        <div class="plan-header">
+                            <h3>Metabolic Burner</h3>
+                            <div class="plan-badge">Most Popular</div>
+                        </div>
+                        <div class="plan-details">
+                            <div class="plan-info">
+                                <span class="info-label">Duration:</span>
+                                <span class="info-value">8 Weeks</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Level:</span>
+                                <span class="info-value">Intermediate</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Frequency:</span>
+                                <span class="info-value">5 days/week</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Equipment:</span>
+                                <span class="info-value">Full Gym</span>
+                            </div>
+                        </div>
+                        <div class="plan-description">
+                            <p>A high-intensity program combining resistance training and metabolic conditioning to maximize fat loss while preserving muscle mass. Designed with strategic cardio placement and recovery periods.</p>
+                        </div>
+                        <div class="plan-features">
+                            <h4>Program Includes:</h4>
+                            <ul>
+                                <li>3 strength training days</li>
+                                <li>2 HIIT/metabolic conditioning days</li>
+                                <li>Strategic cardio protocols</li>
+                                <li>Fat loss nutrition guide</li>
+                                <li>Supplement recommendations</li>
+                            </ul>
+                        </div>
+                        <div class="plan-preview">
+                            <h4>Sample Week:</h4>
+                            <div class="workout-days">
+                                <div class="workout-day">
+                                    <div class="day-label">Day 1</div>
+                                    <div class="day-focus">Upper Body + HIIT</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 2</div>
+                                    <div class="day-focus">Lower Body + HIIT</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 3</div>
+                                    <div class="day-focus">Metabolic Conditioning</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 4</div>
+                                    <div class="day-focus">Rest/Active Recovery</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 5</div>
+                                    <div class="day-focus">Full Body + HIIT</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 6</div>
+                                    <div class="day-focus">Metabolic Conditioning</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 7</div>
+                                    <div class="day-focus">Rest</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="primary-button plan-button" data-plan="Metabolic Burner">Get This Plan</a>
+                    </div>
+
+                    <div class="plan-card">
+                        <div class="plan-header">
+                            <h3>Shred & Strength</h3>
+                        </div>
+                        <div class="plan-details">
+                            <div class="plan-info">
+                                <span class="info-label">Duration:</span>
+                                <span class="info-value">10 Weeks</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Level:</span>
+                                <span class="info-value">Intermediate-Advanced</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Frequency:</span>
+                                <span class="info-value">4 days/week</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Equipment:</span>
+                                <span class="info-value">Full Gym</span>
+                            </div>
+                        </div>
+                        <div class="plan-description">
+                            <p>Designed to maximize fat loss while maintaining (or even building) strength. Uses a combination of heavy compound lifting and strategic cardio to transform your physique.</p>
+                        </div>
+                        <div class="plan-features">
+                            <h4>Program Includes:</h4>
+                            <ul>
+                                <li>Upper/Lower split with RPE-based training</li>
+                                <li>Periodized cardio protocols</li>
+                                <li>Carb cycling guidelines</li>
+                                <li>Progression tracking tools</li>
+                                <li>Detailed warm-up routines</li>
+                            </ul>
+                        </div>
+                        <div class="plan-preview">
+                            <h4>Sample Week:</h4>
+                            <div class="workout-days">
+                                <div class="workout-day">
+                                    <div class="day-label">Day 1</div>
+                                    <div class="day-focus">Lower Heavy + HIIT</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 2</div>
+                                    <div class="day-focus">Upper Heavy + HIIT</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 3</div>
+                                    <div class="day-focus">Rest/LISS Cardio</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 4</div>
+                                    <div class="day-focus">Lower Volume + HIIT</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 5</div>
+                                    <div class="day-focus">Upper Volume + HIIT</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 6</div>
+                                    <div class="day-focus">Rest/LISS Cardio</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 7</div>
+                                    <div class="day-focus">Rest</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="primary-button plan-button" data-plan="Shred & Strength">Get This Plan</a>
+                    </div>
+
+                    <div class="plan-card">
+                        <div class="plan-header">
+                            <h3>30-Day Fat Blaster</h3>
+                        </div>
+                        <div class="plan-details">
+                            <div class="plan-info">
+                                <span class="info-label">Duration:</span>
+                                <span class="info-value">4 Weeks</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Level:</span>
+                                <span class="info-value">All Levels</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Frequency:</span>
+                                <span class="info-value">6 days/week</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Equipment:</span>
+                                <span class="info-value">Minimal Equipment</span>
+                            </div>
+                        </div>
+                        <div class="plan-description">
+                            <p>A high-intensity, minimal equipment program focused on burning fat in a short time period. Perfect for kickstarting your fitness journey or breaking through plateaus.</p>
+                        </div>
+                        <div class="plan-features">
+                            <h4>Program Includes:</h4>
+                            <ul>
+                                <li>Circuit-style workouts</li>
+                                <li>Three difficulty levels per exercise</li>
+                                <li>30-day meal plan</li>
+                                <li>Daily accountability checklist</li>
+                                <li>Progress tracking measurements</li>
+                            </ul>
+                        </div>
+                        <div class="plan-preview">
+                            <h4>Sample Week:</h4>
+                            <div class="workout-days">
+                                <div class="workout-day">
+                                    <div class="day-label">Day 1</div>
+                                    <div class="day-focus">Lower Body Circuit</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 2</div>
+                                    <div class="day-focus">Upper Body Circuit</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 3</div>
+                                    <div class="day-focus">HIIT + Core</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 4</div>
+                                    <div class="day-focus">Full Body Circuit</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 5</div>
+                                    <div class="day-focus">Tabata Intervals</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 6</div>
+                                    <div class="day-focus">Active Recovery</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 7</div>
+                                    <div class="day-focus">Rest</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="primary-button plan-button" data-plan="30-Day Fat Blaster">Get This Plan</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Muscle Gain Plans (initially hidden) -->
+            <div class="category-content" id="muscle-gain-content">
+                <div class="plans-grid">
+                    <div class="plan-card">
+                        <div class="plan-header">
+                            <h3>Hypertrophy Maximizer</h3>
+                            <div class="plan-badge">Most Popular</div>
+                        </div>
+                        <div class="plan-details">
+                            <div class="plan-info">
+                                <span class="info-label">Duration:</span>
+                                <span class="info-value">12 Weeks</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Level:</span>
+                                <span class="info-value">Intermediate</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Frequency:</span>
+                                <span class="info-value">5 days/week</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Equipment:</span>
+                                <span class="info-value">Full Gym</span>
+                            </div>
+                        </div>
+                        <div class="plan-description">
+                            <p>A comprehensive muscle-building program using scientifically-proven hypertrophy principles. Features periodized training volumes, strategic deloads, and targeted nutrition guidance for maximum muscle growth.</p>
+                        </div>
+                        <div class="plan-features">
+                            <h4>Program Includes:</h4>
+                            <ul>
+                                <li>5-day body part split</li>
+                                <li>Progressive overload protocols</li>
+                                <li>Intensity techniques (drop sets, rest-pause, etc.)</li>
+                                <li>Muscle gain nutrition guide</li>
+                                <li>Supplement recommendations</li>
+                            </ul>
+                        </div>
+                        <div class="plan-preview">
+                            <h4>Sample Week:</h4>
+                            <div class="workout-days">
+                                <div class="workout-day">
+                                    <div class="day-label">Day 1</div>
+                                    <div class="day-focus">Chest & Triceps</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 2</div>
+                                    <div class="day-focus">Back & Biceps</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 3</div>
+                                    <div class="day-focus">Legs & Calves</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 4</div>
+                                    <div class="day-focus">Shoulders & Abs</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 5</div>
+                                    <div class="day-focus">Arms & Weak Points</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 6</div>
+                                    <div class="day-focus">Rest</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 7</div>
+                                    <div class="day-focus">Rest</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="primary-button plan-button" data-plan="Hypertrophy Maximizer">Get This Plan</a>
+                    </div>
+
+                    <div class="plan-card">
+                        <div class="plan-header">
+                            <h3>Upper/Lower Mass</h3>
+                        </div>
+                        <div class="plan-details">
+                            <div class="plan-info">
+                                <span class="info-label">Duration:</span>
+                                <span class="info-value">10 Weeks</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Level:</span>
+                                <span class="info-value">Intermediate-Advanced</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Frequency:</span>
+                                <span class="info-value">4 days/week</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Equipment:</span>
+                                <span class="info-value">Full Gym</span>
+                            </div>
+                        </div>
+                        <div class="plan-description">
+                            <p>A balanced muscle-building program based on the proven upper/lower split, allowing optimal frequency for each muscle group. Includes both strength and hypertrophy-focused training days.</p>
+                        </div>
+                        <div class="plan-features">
+                            <h4>Program Includes:</h4>
+                            <ul>
+                                <li>4-day upper/lower split</li>
+                                <li>Undulating periodization</li>
+                                <li>Exercise technique guides</li>
+                                <li>Recovery optimization strategies</li>
+                                <li>Weekly progression guidelines</li>
+                            </ul>
+                        </div>
+                        <div class="plan-preview">
+                            <h4>Sample Week:</h4>
+                            <div class="workout-days">
+                                <div class="workout-day">
+                                    <div class="day-label">Day 1</div>
+                                    <div class="day-focus">Upper Strength</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 2</div>
+                                    <div class="day-focus">Lower Strength</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 3</div>
+                                    <div class="day-focus">Rest</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 4</div>
+                                    <div class="day-focus">Upper Hypertrophy</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 5</div>
+                                    <div class="day-focus">Lower Hypertrophy</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 6</div>
+                                    <div class="day-focus">Rest</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 7</div>
+                                    <div class="day-focus">Rest</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="primary-button plan-button" data-plan="Upper/Lower Mass">Get This Plan</a>
+                    </div>
+
+                    <div class="plan-card">
+                        <div class="plan-header">
+                            <h3>Push/Pull/Legs</h3>
+                        </div>
+                        <div class="plan-details">
+                            <div class="plan-info">
+                                <span class="info-label">Duration:</span>
+                                <span class="info-value">8 Weeks</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Level:</span>
+                                <span class="info-value">All Levels</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Frequency:</span>
+                                <span class="info-value">3-6 days/week</span>
+                            </div>
+                            <div class="plan-info">
+                                <span class="info-label">Equipment:</span>
+                                <span class="info-value">Full Gym</span>
+                            </div>
+                        </div>
+                        <div class="plan-description">
+                            <p>The classic PPL split, organized by movement patterns for optimal muscle growth. Flexible frequency options allow you to train 3, 4, or 6 days per week based on your schedule and recovery abilities.</p>
+                        </div>
+                        <div class="plan-features">
+                            <h4>Program Includes:</h4>
+                            <ul>
+                                <li>Push/Pull/Legs workout templates</li>
+                                <li>Volume adjustment guidelines</li>
+                                <li>Exercise substitution options</li>
+                                <li>Multiple frequency variations</li>
+                                <li>Muscle growth nutrition fundamentals</li>
+                            </ul>
+                        </div>
+                        <div class="plan-preview">
+                            <h4>Sample Week (6-day):</h4>
+                            <div class="workout-days">
+                                <div class="workout-day">
+                                    <div class="day-label">Day 1</div>
+                                    <div class="day-focus">Push A</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 2</div>
+                                    <div class="day-focus">Pull A</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 3</div>
+                                    <div class="day-focus">Legs A</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 4</div>
+                                    <div class="day-focus">Push B</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 5</div>
+                                    <div class="day-focus">Pull B</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 6</div>
+                                    <div class="day-focus">Legs B</div>
+                                </div>
+                                <div class="workout-day">
+                                    <div class="day-label">Day 7</div>
+                                    <div class="day-focus">Rest</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="primary-button plan-button" data-plan="Push/Pull/Legs">Get This Plan</a>
+                    </div>
